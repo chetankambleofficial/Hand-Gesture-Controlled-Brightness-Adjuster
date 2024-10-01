@@ -41,6 +41,7 @@ while True:
         # Brightness range 0 - 100
 
     cv2.imshow('Image', img)
+    print(bright, length)
     if cv2.waitKey(1) & 0xff == ord('q'):
         break
 
